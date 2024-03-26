@@ -1,0 +1,43 @@
+.container{
+    height: 92vh;
+    /* background-color: #fff; */
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    padding: 20px 10%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo h2{
+    color: #3ec1d8;
+}
+h3{
+    color: #fff;
+}
+.main{
+    padding: 10px 10%;
+    color: #fff;
+}
+.main h1{
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.main ul{
+    margin-left: 3rem;
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+.main ul li::marker{
+    color: #3ec1d8;
+    font-size: 1.8em;
+}

@@ -1,0 +1,81 @@
+.card-container{
+    background-color: #202020;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container2 .content{
+    padding: 20px;
+}
+
+.container2 .footer{
+    padding: 10px 20px;
+    background: #1b1b1b;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    gap: 18px;
+}
+.container2 .footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.content h3.abt{
+    margin-top: 10px;
+}
+
+.card-container img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.content p{
+    font-size: .9em;
+}
+.card-container h2,.p1, .p2{
+    text-align: center;
+}
+.card-container .p1{
+    margin: 4px 0;
+    font-size: 1em;
+}
+.p2{
+    font-size: .8em;
+}
+.card-container .btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.card-container button{
+    padding: 10px;
+    width: 100% ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: .9em;
+}
+.card-container button:nth-child(1){
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+.card-container button:nth-child(1):hover{
+    background: rgb(224, 224, 224);
+}
+.card-container button:nth-child(2){
+    background: rgb(32, 32, 161);
+}
+.card-container button:nth-child(2):hover{
+    background: rgb(32, 32, 129);
+}
+
+.card-container:nth-child(2) button:nth-child(2){
+    display: none;
+}
+
