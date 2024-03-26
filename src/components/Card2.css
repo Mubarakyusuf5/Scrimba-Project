@@ -1,0 +1,43 @@
+.card2-container{
+    /* background: #949393; */
+    width: 264px;
+    /* position: relative; */
+}
+
+.img-con{
+    position: relative;
+    /* z-index: auto; */
+}
+
+.img-con img{
+    width: 100%;
+    height: 353px;
+    /* z-index: 100; */
+}
+
+.img-con img:nth-child(3){
+    border-radius: 10px;
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: .9em;
+}
+.con{
+    padding: 5px;
+}
+
+.rating span{
+    color: #918E9B;
+}
+
+.rating img{
+    width: 16px;
+    margin-right: 3px;
+}

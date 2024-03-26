@@ -34,7 +34,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav>
+      <nav className="nav1">
         <ul className="navcon">{linking}</ul>
       </nav>
     </>
