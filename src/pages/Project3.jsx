@@ -1,7 +1,7 @@
 import Card2 from "../components/Card2";
 import "./Project3.css";
 import Datas from "./data";
-import star from "../assets/star.png";
+import star from "/star.png";
 
 export default function Project3() {
   const position = Datas.map((data) => {

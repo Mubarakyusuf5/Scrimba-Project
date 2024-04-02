@@ -17,7 +17,7 @@ export default function Project4() {
     <div className="container4">
       <nav className="nav4">
         <div className="logo4">
-          <img src="src/assets/globe.png" alt="" />
+          <img src="/globe.png" alt="" />
           My Travel Journal
         </div>
       </nav>

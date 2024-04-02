@@ -5,7 +5,7 @@ export default function Project2() {
   const project = [
     {
       id: 1,
-      img: "../assets/IMG_9824 (2).jpg",
+      img: "IMG_9824 (2).jpg",
       title: "Web Developer",
       name: "Mubarak Yusuf",
       email: "yusufmubarak460@gmail.com",
