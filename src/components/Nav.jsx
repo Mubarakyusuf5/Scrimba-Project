@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
@@ -11,24 +11,22 @@ const Nav = () => {
     { id: 5, name: "Project5", url: "/project5" },
   ];
 
-  const [isActive, setIsActive] = useState(() => {
-    return localStorage.getItem("activeLink") || "/";
-  });
+  const [activeLink, setActiveLink] = useState("/");
+  const location = useLocation();
 
   useEffect(() => {
-    localStorage.setItem("activeLink", isActive);
-  }, [isActive]);
+    setActiveLink(location.pathname);
+  }, [location]);
 
   const linking = links.map(({ id, name, url }) => {
     return (
       <li key={id}>
-        <Link
+        <NavLink
           to={url}
-          className={isActive === url ? "active" : ""}
-          onClick={() => setIsActive(url)}
+          className={url === activeLink ? "active" : ""}
         >
           {name}
-        </Link>
+        </NavLink>
       </li>
     );
   });
