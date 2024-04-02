@@ -1,0 +1,53 @@
+.card-con4{
+    display: flex;
+    width: 860px;
+    margin-bottom: 50px;
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 20px; */
+}
+
+.card-con4 img{
+    height: 333px;
+    width: 244px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.con4{
+    padding: 30px;
+}
+
+.con4 a{
+    color: rgb(102, 100, 100);
+    font-size: 1.03em;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.con4 h1{
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.con4 .location{
+    font-size: 1.1em;
+}
+
+.location img{
+    height: 23px;
+    width: 23px;
+    margin-right: 1px;
+}
+
+.con4 .date{
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-top: 30px;
+    /* font-size: 1.1em; */
+}
+
+.con4 .desc{
+    line-height: 1.6;
+    font-size: 1.08em;
+}

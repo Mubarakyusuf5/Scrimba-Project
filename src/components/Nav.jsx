@@ -8,6 +8,7 @@ const Nav = () => {
     { id: 2, name: "Project2", url: "/project2" },
     { id: 3, name: "Project3", url: "/project3" },
     { id: 4, name: "Project4", url: "/project4" },
+    { id: 5, name: "Project5", url: "/project5" },
   ];
 
   const [isActive, setIsActive] = useState(() => {

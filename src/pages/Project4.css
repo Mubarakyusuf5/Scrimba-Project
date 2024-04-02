@@ -1,0 +1,29 @@
+.container4{
+    background: #fff;
+    color: black;
+}
+
+.nav4{
+    background-color: rgb(209, 46, 46);
+    padding: 20px 5%;
+}
+
+.nav4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    gap: 5px;
+    color: #fff;
+}
+
+.nav4 img{
+    height: 30px;
+    width: 30px;
+}
+
+.content-container{
+    padding: 30px 5%;
+    min-height: 100vh;
+}
