@@ -11,22 +11,22 @@ export default function Project2() {
       email: "yusufmubarak460@gmail.com",
       foot: [
         {id: 1,img: "github-white.png", link:'http://www.linkedin.com'},
-        {id: 2,img: "facebook.png", link:'http://www.linkedin.com'},
+        {id: 2,img: "facebook.svg", link:'http://www.linkedin.com'},
         {id: 3,img: "instagram.png", link:'http://www.linkedin.com'},
-        {id: 4,img: "x.jpg", link:'http://www.linkedin.com'}
+        {id: 4,img: "x.svg", link:'http://www.linkedin.com'}
       ],
     },
     {
       id: 2,
-      img: "beautiful portrait dog.webp",
+      img: "user.png",
       title: "Agricultural Engineer",
       name: "Ibrahim Yusuf",
       email: "kambarawafabrication@gmail.com",
       foot: [
-        { id: 1,img: "linkedin.png", link:'http://www.linkedin.com'},
-        { id: 2,img: "facebook.png", link:'http://www.linkedin.com'},
+        { id: 1,img: "linkedin.svg", link:'http://www.linkedin.com'},
+        { id: 2,img: "facebook.svg", link:'http://www.linkedin.com'},
         { id: 3,img: "instagram.png", link:'http://www.linkedin.com'},
-        { id: 4,img: "x.jpg", link:'http://www.linkedin.com'},
+        { id: 4,img: "x.svg", link:'http://www.linkedin.com'},
         { id: 5,img: "github-white.png", link:'http://www.linkedin.com'}
       ],
     },

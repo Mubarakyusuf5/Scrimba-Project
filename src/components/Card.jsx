@@ -4,7 +4,10 @@ const Card = (props) => {
   return (
     <>
         <div className="card-container">
+          <div className="img1">
+
             <img src={`/${props.img}`} alt="" />
+          </div>
             <h2>{props.name}</h2>
             <p className='p1'>{props.title}</p>
             <p className='p2'>{props.email}</p>
