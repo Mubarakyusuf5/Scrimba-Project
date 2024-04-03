@@ -5,13 +5,7 @@ import star from "/star.png";
 
 export default function Project3() {
   const position = Datas.map((data) => {
-    return (
-      <Card2
-        key={data.id}
-        rateimg={star}
-        {...data}
-      />
-    );
+    return <Card2 key={data.id} rateimg={star} {...data} />;
   });
   return (
     <>
@@ -33,9 +27,7 @@ export default function Project3() {
               one-of-a-kind-hosts-all without leaving <br /> home.
             </p>
           </div>
-          <div className="maincon">
-            {position}
-          </div>
+          <div className="maincon">{position}</div>
         </div>
       </div>
     </>

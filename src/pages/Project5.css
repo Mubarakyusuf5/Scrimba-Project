@@ -1,0 +1,44 @@
+.nav5{
+    background: linear-gradient(to right, rgba(76, 9, 97, 0.9), rgba(212, 50, 245, 0.75));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.container5 .logo h2{
+    color: #fff;
+}
+
+.con5{
+    background-color: #fff;
+    min-height: 85vh;
+    padding: 30px 5%;
+}
+
+.con5 form{
+    display: grid;
+    grid-template: 40px 40px /1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.con5 .btn{
+    grid-column: 1 / -1;
+}
+
+.con5 input{
+    padding: 10px;
+    font-size: 1em;
+    background-color: #fff;
+    color: black;
+    outline: none;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.con5 .btn{
+    background: linear-gradient(to right, rgba(76, 9, 97, 0.9), rgba(212, 50, 245, 0.75));
+    cursor: pointer;
+    color: #fff;
+}
