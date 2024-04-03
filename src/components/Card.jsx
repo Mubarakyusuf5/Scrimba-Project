@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <>
         <div className="card-container">
-            <img src={`src/assets/${props.img}`} alt="" />
+            <img src={`/${props.img}`} alt="" />
             <h2>{props.name}</h2>
             <p className='p1'>{props.title}</p>
             <p className='p2'>{props.email}</p>
@@ -21,7 +21,7 @@ const Card = (props) => {
             <div className="footer">
                {props.foot.map((item) => (
             <a key={item.id} href={item.link} target='_blank' rel="noopener noreferrer">
-              <img src={`src/assets/${item.img}`} alt="" />
+              <img src={`/${item.img}`} alt="" />
             </a>
           ))}
             </div>

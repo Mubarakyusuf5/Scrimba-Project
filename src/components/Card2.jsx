@@ -13,7 +13,7 @@ const Card2 = (props) => {
     <>
       <div className="card2-container">
         <div className="img-con">
-          <img src={`src/assets/${props.coverImg}`} alt="" />
+          <img src={`/${props.coverImg}`} alt="" />
           {result && <div className="badge">{result}</div>}
         </div>
         <div className="con">

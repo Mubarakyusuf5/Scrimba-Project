@@ -18,13 +18,13 @@ export default function Project3() {
       <div className="container3">
         <div className="nav3">
           <div className="logo">
-            <img src="src/assets/ABNB_BIG.png" alt="" />
+            <img src="/ABNB_BIG.png" alt="" />
           </div>
         </div>
         <div className="contain">
           <div className="hero">
             <div className="imgcon">
-              <img src="src/assets/airbnb.png" alt="" />
+              <img src="/airbnb.png" alt="" />
             </div>
             <h1>Online Experiences</h1>
             <p>
